@@ -6,15 +6,15 @@ local current_dir='${PWD/~}'
 
 
 function hms {
-	echo "%D{%I:%M:%S%p}"
+  echo "%D{%I:%M:%S%p}"
 }
 
 function location {
-	echo "$PWD"
+  echo "$PWD"
 }
 
 function newline {
-	echo "\n"
+  echo "\n"
 }
 
 ### GIT ###
@@ -61,7 +61,7 @@ PROMPT='%{$FG[051]%}|%{$reset_color%}\
 %{$FG[051]%}%{$BG[017]%}$(hms)%{$reset_color%}\
 %{$FG[051]%}|%{$reset_color%}\
 $(__git_prompt)
-💎  '
+%{$FG[226]%}%{$reset_color%} '
 
 
 

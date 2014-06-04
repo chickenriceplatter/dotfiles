@@ -22,7 +22,7 @@ alias gb="git branch"
 alias gba="git branch -a"
 
 # PATH
-export PATH="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:$PYTHON_SHARE:$PATH"
+export PATH="$PATH:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:$PYTHON_SHARE"
 
 # Navigation
 alias cd..="cd .."
@@ -30,9 +30,6 @@ alias cd/='cd /'
 alias desktop='cd ~/Desktop'
 alias ll='ls -halF'
 alias lsa='ls -a'
-
-#crunch project
-alias c="cd ~/projects/crunch"
 
 # Postgres
 alias psql='psql -h localhost'
@@ -73,4 +70,4 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm"
 
 # Customize to your needs...
-export PATH=$PATH:/Users/dave/.rvm/gems/ruby-2.0.0-p247/bin:/Users/dave/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/dave/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/dave/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin::/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
+export PATH=$PATH:/Users/dave/.rvm/gems/ruby-2.1.1/bin:/Users/dave/.rvm/gems/ruby-2.1.1@global/bin:/Users/dave/.rvm/rubies/ruby-2.1.1/bin:/Users/dave/.rvm/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin::/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
