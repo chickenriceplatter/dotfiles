@@ -17,4 +17,11 @@ copy .zshrc to ~/.zshrc
     $ cp ~/dotfiles/.zshrc ~/.zshrc
     $ source .zshrc
 
+#### prytheme
+copy .pryrc to ~/.pryrc
 
+```bash
+$ gem install pry-theme
+
+$ cp dave.prytheme.rb ~/.pry/themes
+```
