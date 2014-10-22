@@ -11,6 +11,11 @@ ZSH_THEME="dave"
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
+# History Variables
+export HISTTIMEFORMAT='%b %d %I:%M %p '
+export HISTCONTROL=ignoreboth           # ignoredups:ignorespace
+export HISTIGNORE="history:pwd:exit:ls:ls -thor"
+
 #Sublime
 alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
 alias nano="subl"
@@ -21,8 +26,11 @@ alias gs="git status"
 alias gb="git branch"
 alias gba="git branch -a"
 
+# Go
+export GOPATH=$HOME/go:$HOME/euler:$HOME/src/vector
+
 # PATH
-export PATH="$PATH:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:$PYTHON_SHARE"
+export PATH="$PATH:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/mysql/bin:$GOPATH/bin"
 
 # Navigation
 alias cd..="cd .."
