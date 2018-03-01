@@ -5,8 +5,11 @@
     "Vintage"
   ],
 
-  //theme
   "theme": "Soda Light.sublime-theme",
+
+  "hot_exit": false,
+
+  "remember_open_files": false,
 
   // Columns in which to display vertical rulers
   "rulers": [100],
@@ -35,5 +38,4 @@
 
   // Enable auto complete to be triggered automatically when typing.
   "auto_complete": false
-
 }
