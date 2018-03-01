@@ -1,0 +1,5 @@
+[alias]
+  co = checkout
+[user]
+  email = chickenriceplatter@gmail.com
+  name = chickenriceplatter

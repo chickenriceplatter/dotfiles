@@ -24,3 +24,6 @@ $ gem install pry-theme
 
 $ cp dave.prytheme.rb ~/.pry/themes
 ```
+
+#### gitconfig
+copy gitconfig to ~/.gitconfig
